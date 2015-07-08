@@ -1,0 +1,762 @@
+{
+	"collection": "Story Teller",
+	"original": {
+		"company": "Marshall Cavendish",
+		"released": "Fortnightly"
+	},
+	"part": 1,
+	"files": {
+		"pdf_st1_p1"		: "Story Teller 1 Part 1.pdf",
+		"mp3_gobbolino"		: "1 Gobbolino, the Witch's Cat.mp3",
+		"mp3_haretortoise"	: "2 The Hare and the Tortoise.mp3",
+		"mp3_shoetree"		: "3 The Shoe Tree.mp3",
+		"mp3_emperor"		: "4 The Emperor's New Clothes.mp3",
+		"mp3_nightcaps"		: "5 The Red Nightcaps.mp3",
+		"mp3_aldo"			: "6 Aldo in Arcadia (Part 1).mp3",
+		"mp3_foresttroll"	: "7 The Forest Troll.mp3"
+	},
+	"hashformat": "SHA1",
+	"hashes": {
+		"mp3_gobbolino"		: "791cd9f537357f186c167ae2c1b460698819c02d",
+		"mp3_haretortoise"	: "4edc691bb2c392246eb3c122f89d923dd9041cd9",
+		"mp3_showtree"		: "fcabb6bdac09570c0ee1d057c686ab06d467bc97",
+		"mp3_emperor"		: "4350b0178b5b2db7864783c0b5abf66a724ab373",
+		"mp3_nightcaps"		: "147c667ded35c8d6a552f5b131bf64023e4da994",
+		"mp3_aldo"			: "196df78b2663f92f7f43b45f3b8ba4348a5eb83c",
+		"mp3_foresttroll"	: "a068db9584c617d5777b498e4c781899f259cddf",
+		"pdf_st1_p1"		: "137b8abc34cfeb8999546e4fb9109309d701fc57"
+	},
+	"pages": [
+		{
+			"pdfpagenumber": 1,
+			"type":	"frontcover",
+			"sound": {
+				"file": "mp3_gobbolino",
+				"range": {
+					"from": "bof",
+					"to": "0:32"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "loop",
+					"finishes_autoon": "loop"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 2,
+			"type":	"contents",
+			"sound": {
+				"file": "mp3_gobbolino",
+				"range": {
+					"from": "bof",
+					"to": "0:32"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "loop",
+					"finishes_autoon": "loop"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 3,
+			"type":	"contents",
+			"sound": {
+				"file": "mp3_gobbolino",
+				"range": {
+					"from": "bof",
+					"to": "0:32"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "loop",
+					"finishes_autoon": "loop"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 4,
+			"contentspagenumber": 1,
+			"type":	"story",
+			"multipart": true,
+			"storypart": 1,
+			"storypage": 1,
+			"title": "Gobbolino, The Witch's Cat",
+			"readers": ["Sheila Hancock"],
+			"sound": {
+				"file": "mp3_gobbolino",
+				"range": {
+					"from": "0:32",
+					"to": "2:53"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 5,
+			"contentspagenumber": 2,
+			"type":	"story",
+			"multipart": true,
+			"storypart": 1,
+			"storypage": 2,
+			"title": "Gobbolino, The Witch's Cat",
+			"readers": ["Sheila Hancock"],
+			"sound": {
+				"file": "mp3_gobbolino",
+				"range": {
+					"from": "2:54",
+					"to": "4:20"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 6,
+			"contentspagenumber": 3,
+			"type":	"story",
+			"multipart": true,
+			"storypart": 1,
+			"storypage": 3,
+			"title": "Gobbolino, The Witch's Cat",
+			"readers": ["Sheila Hancock"],
+			"sound": {
+				"file": "mp3_gobbolino",
+				"range": {
+					"from": "4:20",
+					"to": "6:19"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 7,
+			"contentspagenumber": 4,
+			"type":	"story",
+			"multipart": true,
+			"storypart": 1,
+			"storypage": 4,
+			"title": "Gobbolino, The Witch's Cat",
+			"readers": ["Sheila Hancock"],
+			"sound": {
+				"file": "mp3_gobbolino",
+				"range": {
+					"from": "6:19",
+					"to": "8:15"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 8,
+			"contentspagenumber": 5,
+			"type":	"story",
+			"multipart": true,
+			"storypart": 1,
+			"storypage": 5,
+			"title": "Gobbolino, The Witch's Cat",
+			"readers": ["Sheila Hancock"],
+			"sound": {
+				"file": "mp3_gobbolino",
+				"range": {
+					"from": "8:15",
+					"to": "9:52"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 9,
+			"contentspagenumber": 6,
+			"type":	"story",
+			"multipart": true,
+			"storypart": 1,
+			"storypage": 5,
+			"title": "Gobbolino, The Witch's Cat",
+			"readers": ["Sheila Hancock"],
+			"sound": {
+				"file": "mp3_gobbolino",
+				"range": {
+					"from": "9:52",
+					"to": "eof"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "stop"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 10,
+			"contentspagenumber": 7,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 1,
+			"title": "The Hare & The Tortoise",
+			"readers": ["Bernard Cribbins"],
+			"sound": {
+				"file": "mp3_haretortoise",
+				"range": {
+					"from": "bof",
+					"to": "1:38"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 11,
+			"contentspagenumber": 8,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 2,
+			"title": "The Hare & The Tortoise",
+			"readers": ["Bernard Cribbins"],
+			"sound": {
+				"file": "mp3_haretortoise",
+				"range": {
+					"from": "1:38",
+					"to": "eof"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "stop"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 12,
+			"contentspagenumber": 9,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 1,
+			"title": "The Shoe Tree",
+			"readers": ["Sheila Hancock"],
+			"sound": {
+				"file": "mp3_shoetree",
+				"range": {
+					"from": "bof",
+					"to": "2:20"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 13,
+			"contentspagenumber": 10,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 2,
+			"title": "The Shoe Tree",
+			"readers": ["Sheila Hancock"],
+			"sound": {
+				"file": "mp3_shoetree",
+				"range": {
+					"from": "2:20",
+					"to": "4:17"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 14,
+			"contentspagenumber": 11,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 3,
+			"title": "The Shoe Tree",
+			"readers": ["Sheila Hancock"],
+			"sound": {
+				"file": "mp3_shoetree",
+				"range": {
+					"from": "4:17",
+					"to": "5:54"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 15,
+			"contentspagenumber": 12,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 4,
+			"title": "The Shoe Tree",
+			"readers": ["Sheila Hancock"],
+			"sound": {
+				"file": "mp3_shoetree",
+				"range": {
+					"from": "5:54",
+					"to": "7:09"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 16,
+			"contentspagenumber": 13,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 5,
+			"title": "The Shoe Tree",
+			"readers": ["Sheila Hancock"],
+			"sound": {
+				"file": "mp3_shoetree",
+				"range": {
+					"from": "7:09",
+					"to": "eof"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 17,
+			"contentspagenumber": 14,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 1,
+			"title": "The Emperor's New Clothes",
+			"readers": ["Bernard Cribbins"],
+			"sound": {
+				"file": "mp3_emperor",
+				"range": {
+					"from": "bof",
+					"to": "1:22"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 18,
+			"contentspagenumber": 15,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 2,
+			"title": "The Emperor's New Clothes",
+			"readers": ["Bernard Cribbins"],
+			"sound": {
+				"file": "mp3_emperor",
+				"range": {
+					"from": "1:22",
+					"to": "2:34"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 19,
+			"contentspagenumber": 16,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 3,
+			"title": "The Emperor's New Clothes",
+			"readers": ["Bernard Cribbins"],
+			"sound": {
+				"file": "mp3_emperor",
+				"range": {
+					"from": "2:34",
+					"to": "4:21"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 20,
+			"contentspagenumber": 17,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 4,
+			"title": "The Emperor's New Clothes",
+			"readers": ["Bernard Cribbins"],
+			"sound": {
+				"file": "mp3_emperor",
+				"range": {
+					"from": "4:21",
+					"to": "5:26"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 21,
+			"contentspagenumber": 18,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 5,
+			"title": "The Emperor's New Clothes",
+			"readers": ["Bernard Cribbins"],
+			"sound": {
+				"file": "mp3_emperor",
+				"range": {
+					"from": "5:26",
+					"to": "6:46"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 22,
+			"contentspagenumber": 19,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 6,
+			"title": "The Emperor's New Clothes",
+			"readers": ["Bernard Cribbins"],
+			"sound": {
+				"file": "mp3_emperor",
+				"range": {
+					"from": "6:46",
+					"to": "8:24"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 23,
+			"contentspagenumber": 20,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 7,
+			"title": "The Emperor's New Clothes",
+			"readers": ["Bernard Cribbins"],
+			"sound": {
+				"file": "mp3_emperor",
+				"range": {
+					"from": "8:24",
+					"to": "eof"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "stop"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 24,
+			"contentspagenumber": 21,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 1,
+			"title": "The Red Nightcaps",
+			"readers": ["Marise Hepworth"],
+			"sound": {
+				"file": "mp3_nightcaps",
+				"range": {
+					"from": "bof",
+					"to": "1:47"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 25,
+			"contentspagenumber": 22,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 2,
+			"title": "The Red Nightcaps",
+			"readers": ["Marise Hepworth"],
+			"sound": {
+				"file": "mp3_nightcaps",
+				"range": {
+					"from": "1:47",
+					"to": "eof"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "stop"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 26,
+			"contentspagenumber": 23,
+			"type":	"story",
+			"multipart": true,
+			"storypart": 1,
+			"storypage": 1,
+			"title": "Aldo in Arcadia",
+			"readers": ["Robert Powell", "Nigel Lambert", "John Brewer"],
+			"sound": {
+				"file": "mp3_aldo",
+				"range": {
+					"from": "bof",
+					"to": "0:56"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 27,
+			"contentspagenumber": 24,
+			"type":	"story",
+			"multipart": true,
+			"storypart": 1,
+			"storypage": 2,
+			"title": "Aldo in Arcadia",
+			"readers": ["Robert Powell", "Nigel Lambert", "John Brewer"],
+			"sound": {
+				"file": "mp3_aldo",
+				"range": {
+					"from": "0:56",
+					"to": "2:00"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 28,
+			"contentspagenumber": 25,
+			"type":	"story",
+			"multipart": true,
+			"storypart": 1,
+			"storypage": 3,
+			"title": "Aldo in Arcadia",
+			"readers": ["Robert Powell", "Nigel Lambert", "John Brewer"],
+			"sound": {
+				"file": "mp3_aldo",
+				"range": {
+					"from": "2:00",
+					"to": "eof"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "stop"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 29,
+			"contentspagenumber": 26,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 1,
+			"title": "The Forest Troll",
+			"readers": ["Nigel Lambert"],
+			"sound": {
+				"file": "mp3_foresttroll",
+				"range": {
+					"from": "bof",
+					"to": "1:57"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 30,
+			"contentspagenumber": 27,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 2,
+			"title": "The Forest Troll",
+			"readers": ["Nigel Lambert"],
+			"sound": {
+				"file": "mp3_foresttroll",
+				"range": {
+					"from": "1:57",
+					"to": "4:08"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "nextpage"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 31,
+			"contentspagenumber": 28,
+			"type":	"story",
+			"multipart": false,
+			"storypage": 3,
+			"title": "The Forest Troll",
+			"readers": ["Nigel Lambert"],
+			"sound": {
+				"file": "mp3_foresttroll",
+				"range": {
+					"from": "4:08",
+					"to": "eof"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "stop",
+					"finishes_autoon": "stop"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 32,
+			"type":	"backcover",
+			"sound": {
+				"file": "mp3_gobbolino",
+				"range": {
+					"from": "bof",
+					"to": "0:32"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "loop",
+					"finishes_autoon": "loop"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 33,
+			"type":	"coloringpage",
+			"from": "The Shoe Tree",
+			"sound": {
+				"file": "mp3_gobbolino",
+				"range": {
+					"from": "bof",
+					"to": "0:32"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "loop",
+					"finishes_autoon": "loop"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 34,
+			"type":	"coloringpage",
+			"from": "Gobbolino, The Witch's Cat",
+			"sound": {
+				"file": "mp3_gobbolino",
+				"range": {
+					"from": "bof",
+					"to": "0:32"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "loop",
+					"finishes_autoon": "loop"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 35,
+			"type":	"coloringpage",
+			"from": "The Forest Troll",
+			"sound": {
+				"file": "mp3_gobbolino",
+				"range": {
+					"from": "bof",
+					"to": "0:32"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "loop",
+					"finishes_autoon": "loop"
+				}
+			}
+		},
+		{
+			"pdfpagenumber": 36,
+			"type":	"coloringpage",
+			"from": "The Emperor's New Clothes",
+			"sound": {
+				"file": "mp3_gobbolino",
+				"range": {
+					"from": "bof",
+					"to": "0:32"
+				},
+				"if": {
+					"alreadyplaying": "continue",
+					"finishes_autooff": "loop",
+					"finishes_autoon": "loop"
+				}
+			}
+		}
+
+
+	]
+}
